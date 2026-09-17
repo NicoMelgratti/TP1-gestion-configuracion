@@ -28,3 +28,7 @@ public class WarehouseService {
         return stock.getOrDefault(sku, 0);
     }
 }
+// disponibilidad de stock
+    public boolean hayStock(String sku) {
+        return getStock(sku) > 0;
+    }
