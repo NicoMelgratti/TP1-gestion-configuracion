@@ -1,0 +1,14 @@
+# Responsables de revision del repositorio (CODEOWNERS)
+# Equipo: Franco Loza, Nicolas Melgratti, Francisco Soltermann, Antonio Bortoli
+
+# Revision general del repositorio
+* @Franco-Loza @NicoMelgratti @FranciscoSoltermann @AntonioBortoli
+
+# Modulo WMS (Gestion de Deposito)
+/src/main/java/com/utn/logistics/wms/ @Franco-Loza @NicoMelgratti
+
+# Modulo TMS (Gestion de Envios)
+/src/main/java/com/utn/logistics/tms/ @FranciscoSoltermann @AntonioBortoli
+
+# Configuracion de CI/CD y flujos de GitHub
+/.github/ @Franco-Loza @NicoMelgratti @FranciscoSoltermann @AntonioBortoli

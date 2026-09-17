@@ -1,0 +1,32 @@
+# Binarios y compilados Java / Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# Archivos de configuración local y variables de entorno
+*.local.properties
+.env
+.env.local
+*.log
+
+# Configuraciones de IDEs y editores
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.vscode/
+.settings/
+.project
+.classpath
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
