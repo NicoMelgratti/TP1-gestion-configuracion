@@ -34,9 +34,4 @@ public class TransportService {
         }
         return false;
     }
-
-    // Metodo para descartar
-    public void eliminarTodosLosEnvios() {
-        envios.clear();
-    }
 }
