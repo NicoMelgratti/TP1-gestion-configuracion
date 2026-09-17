@@ -25,4 +25,13 @@ public class TransportService {
     public String getEstado(String envioId) {
         return envios.getOrDefault(envioId, "NO_ENCONTRADO");
     }
+
+    // Cancelacion de envio
+    public boolean cancelarEnvio(String envioId) {
+        if (envios.containsKey(envioId)) {
+            envios.put(envioId, "CANCELADO");
+            return true;
+        }
+        return false;
+    }
 }
