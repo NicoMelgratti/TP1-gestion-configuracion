@@ -9,7 +9,7 @@ public class TransportService {
 
     // Crear un nuevo envio
     public String crearEnvio(String pedidoId, String direccion) {
-        String envioId = "ENV-" + pedidoId;
+        String envioId = "ENV-" + pedidoId.toUpperCase();
         envios.put(envioId, "EN_PREPARACION");
         return envioId;
     }
